@@ -3,8 +3,6 @@
 
 #include <string>
 
-using std::string;
-
 /**
  * @brief  A python style string format function. i.e.
  *
