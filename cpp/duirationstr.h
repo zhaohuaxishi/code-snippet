@@ -4,9 +4,6 @@
 #include <string>
 #include <chrono>
 
-using std::string;
-using std::chrono::duration;
-
 namespace XDUtil {
 
 /**
