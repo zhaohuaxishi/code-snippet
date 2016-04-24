@@ -6,7 +6,6 @@
 
 namespace XDUtil {
 
-
 /**
  * @brief  A python style string format function. i.e.
  *
@@ -46,10 +45,8 @@ template <typename... Types>
 const std::string FormatString(const std::string& fmt_spec,
                                const Types&... args);
 
-
-void BuildFormatString(std::ostringstream& builder,
-                              const std::string& fmt_spec,
-                              std::string::size_type idx) {
+void BuildFormatString(std::ostringstream& builder, const std::string& fmt_spec,
+                       std::string::size_type idx) {
     auto count = fmt_spec.size() - idx;
     if (count <= 0) {
         return;
@@ -80,7 +77,6 @@ const std::string FormatString(const std::string& fmt_spec,
     return builder.str();
 }
 
-
-} // XDUtil
+}  // XDUtil
 
 #endif /* end of include guard: CPP_UTILITIES_FMTSTR_H_ */
