@@ -1,5 +1,5 @@
-#ifndef CPP_UTILITIES_DUIRATIONSTR_H_
-#define CPP_UTILITIES_DUIRATIONSTR_H_
+#ifndef XDUTIL_DUIRATIONSTR_H_
+#define XDUTIL_DUIRATIONSTR_H_
 
 #include <string>
 #include <chrono>
@@ -32,4 +32,4 @@ std::ostream& operator<<(std::ostream& s,
 
 }  // XDUtil
 
-#endif /* end of include guard: CPP_UTILITIES_DUIRATIONSTR_H_ */
+#endif /* end of include guard: XDUTIL_DUIRATIONSTR_H_ */

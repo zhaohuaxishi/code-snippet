@@ -1,5 +1,5 @@
-#ifndef CPP_UTILITIES_FMTSTR_H_
-#define CPP_UTILITIES_FMTSTR_H
+#ifndef XDUTIL_FMTSTR_H_
+#define XDUTIL_FMTSTR_H
 
 #include <string>
 #include <sstream>
@@ -79,4 +79,4 @@ const std::string FormatString(const std::string& fmt_spec,
 
 }  // XDUtil
 
-#endif /* end of include guard: CPP_UTILITIES_FMTSTR_H_ */
+#endif /* end of include guard: XDUTIL_FMTSTR_H_ */
